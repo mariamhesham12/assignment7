@@ -1,0 +1,648 @@
+ *{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        height: 600px;
+        background-image: url("../img/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .header .navbar{
+        display: flex;
+        height: 60px;
+        background-color: transparent;
+        width: 100%;
+    }
+    .header .navbar .left_item{
+        width: 50%;
+    }
+    .header .navbar .right_item{
+        width: 50%;
+        padding-right: 50px;
+        padding-top: 10px;
+    }
+    .header .navbar .left_item h3{
+       font-size: 20px;
+       font-weight: 600;
+       color: #fff;
+       text-transform: uppercase;
+       padding:10px 30px;
+       letter-spacing: 2px;
+       font-family: cursive;
+    }
+    .header .navbar .right_item ul{
+        float: right;
+    
+    }
+    .header .navbar .right_item .fa-bars{
+        display: none;
+    }
+    .header .navbar .right_item ul li{
+        list-style: unset;
+        display: inline;
+        padding: 5px 15px;
+        padding-bottom: 8px;
+        margin: 5px 5px;
+        font-weight: 500;
+        font-family: cursive;
+        letter-spacing: 2px;
+        border-radius: 20px;
+        border:1px solid transparent;
+        
+    }
+    .header .navbar .right_item ul li a{
+        color: #fff;
+        text-decoration: unset;
+    }
+    
+    .header .navbar .right_item ul li:hover , .header .navbar .right_item ul .active{
+        background-color: rgba(255, 255, 255, .2);
+        border:1px solid rgba(255, 255, 255, 1);
+        overflow: hidden !important;
+        margin-left: 5px;
+    }
+    
+    /* end nav header */
+    
+    /* start header desc */
+    .header .desc{
+        text-align: center;
+        padding-top: 100px;
+        color:#fff ;
+    }
+    .header .desc p{
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+    }
+    .header .desc img:hover{
+        cursor: pointer;
+    }
+    
+    
+    /* start servces section */
+    .services{
+        display: flex;
+        
+    }
+    .services .right_item , .services .left_item{
+        width: 50%;
+    }
+    .services .right_item img{
+        width: 100%;
+        height: 100%;
+    }
+    .services .left_item h3{
+        font-size: 30px;
+        font-weight: 700;
+        font-family: cursive;
+        color: #222;
+        text-transform: capitalize;
+        padding-top: 60px;
+        padding-left: 80px;
+    }
+    .services .left_item p{
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666;
+        text-transform: capitalize;
+        padding-top: 15px;
+        padding-left: 80px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+       
+    }
+    .services .left_item a{
+        text-decoration: unset;
+        color: #111;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        transition:border-bottom .5s ease-in-out;
+        margin-left: 80px;
+    }
+    .services .left_item a:hover{
+        border-bottom: 5px solid gold;
+        
+    }
+    
+    /* .services .left_item{
+        padding: 80px 30px 40px 120px;
+    } */
+    .services2{
+        display: flex;
+        
+    }
+    .services2 .left, .services2 .right{
+        width: 50%;
+    }
+    .services2 .left img{
+        width: 100%;
+        height: 100%;
+    }
+    .services2 .right h3{
+        font-size: 30px;
+        font-weight: 700;
+        font-family: cursive;
+        color: #222;
+        text-transform: capitalize;
+        padding-top: 60px;
+        margin-left: 80px;
+    }
+    .services2 .right p{
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666;
+        text-transform: capitalize;
+        padding-top: 15px;
+        padding-left: 80px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+       
+       
+    }
+    .services2 .right a{
+        text-decoration: unset;
+        color: #111;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        transition:border-bottom .5s ease-in-out;
+       
+        margin-left: 80px;
+    }
+    .services2 .right a:hover{
+        border-bottom: 5px solid rgb(230, 81, 89);
+        
+    }
+    .div3{
+        display: flex;
+        flex-direction: row;
+    }
+   
+     .div3{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+    .div3 .div1, .div3 .div2{
+        width: 50%;
+    }
+    .div3 .div1 img, .div3 .div2 img{
+        width: 100%;
+        height: 100%;
+    } 
+    .div3 .div1 h3{
+        margin-top: -200px;
+        text-align: center;
+        color: rgb(48, 77, 67);
+        font-size: 20px;
+        font-family: cursive;
+        padding-bottom: 30px;
+       
+    }
+    .div3 .div1 p{
+        padding-left:90px ;
+        padding-right:90px ;
+        color: rgb(42, 80, 67);
+        text-align: center;
+        
+    }
+    .div3 .div2 h3{
+        margin-top: -200px;
+        text-align: center;
+        font-family: cursive;
+        font-size: 20px;
+        color: rgb(49, 56, 85);
+        padding-bottom: 30px;
+    }
+    .div3 .div2 p{
+        padding-left:90px ;
+        padding-right:90px ;
+        color: rgb(54, 51, 85);
+        text-align: center;
+    }
+    .div4 .container{
+      display: flex;
+      flex-direction: row;
+     
+  }
+  .div4 .container i{
+      font-size: 50px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+  }
+  .b1{
+      font-weight: 800;
+  }
+  .div4 h4{
+      padding-top: 90px;
+      padding-bottom: 20px;
+      font-family: sans-serif;
+      color: rgb(179, 176, 176);
+      text-align: center;
+      letter-spacing: 2px;
+  }
+  .div4 .container .div1{
+      text-align: center;
+      padding-left: 100px;
+  }
+  .div4 .container .div1 .p1{
+    color: rgb(61, 61, 61);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    padding-bottom: 50px;
+  }
+  .div4 .container .div1 h3{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      letter-spacing: 1px;
+      padding-bottom: 10px;
+  }
+  .div4 .container .div1 .p2{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+      color: rgb(179, 176, 176);
+      font-size: 14px;
+      letter-spacing: -1px;
+      line-height: 20px;
+  }
+  .div4 .container .div2{
+      padding-left: 30px;
+      text-align: center;
+  }
+  .div4 .container .div2 .p1{
+      color: rgb(61, 61, 61);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+      font-size: 14px;
+      letter-spacing: -1px;
+      line-height: 20px;
+      padding-bottom: 50px;
+    }
+    .div4 .container .div2 h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+       
+    }
+    .div4 .container .div2 .p2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        color: rgb(179, 176, 176);
+        font-size: 14px;
+        letter-spacing: -1px;
+        line-height: 20px;
+    }
+    .div4 .container .third{
+        margin: 0px 100px 0px 30px;
+        text-align: center;
+    }
+    .div4 .container .third .p1{
+      color: rgb(61, 61, 61);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+      font-size: 14px;
+      letter-spacing: -1px;
+      line-height: 20px;
+      padding-bottom: 50px;
+    }
+    .div4 .container .third h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       letter-spacing: 1px;
+       padding-bottom: 10px;
+    
+    }
+    .div4 .container .third .p2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        color: rgb(179, 176, 176);
+        font-size: 14px;
+        letter-spacing: -1px;
+        line-height: 20px;
+    } 
+     .pics{
+        display: flex;
+       padding-top: 130px;
+       height: 350px;
+        
+    }
+    .pics .pic1, .pics .pic2, .pics .pic3, .pics .pic4{
+      width: 25%;
+  
+    }
+    .pics img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        margin-top: -16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(148, 238, 208) ;
+        height: 100%;
+    }
+    .footer p{
+        font-family: cursive;
+        font-size: 30px;
+        color: rgb(25, 107, 80);
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .pf{
+        font-weight: 900;
+    }
+    .footer ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .footer ul li{
+        list-style: none;
+        padding: 0px 20px 0px 20px;
+        cursor: pointer;
+        color: rgb(36, 139, 108);
+        
+    }
+    .footer ul li:hover{
+        color: #fff;
+    }
+    .footer .social{
+        padding: 0px 30px 50px 30px;
+    }
+    .footer .social i{
+        padding-left: 20px;
+        color: rgb(36, 139, 108);
+        cursor: pointer;
+    } 
+     .footer .social i:hover{
+        color: #fff;
+    
+     }
+     @media screen and (max-width:1300px) {
+         
+      
+        .div3 .div1 h3{
+            padding-top: 40px;
+            font-size: 25px;
+            
+        }
+        .div3 .div1 p{
+            margin-top:-10px ;
+            line-height: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .div3 .div2 h3{
+            padding-top: 40px;
+            font-size: 25px;
+        }
+        .div3 .div2 p{
+            margin-top:-10px ;
+            line-height: 20px;
+            font-size: 18px;
+            text-align: center;
+        }
+       
+     @media screen and (max-width:1000px) {
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 85%;
+            text-align: center;
+            display: grid;
+            
+        
+        }
+        .services{
+            
+            
+            flex-direction: column-reverse;
+            
+            
+        }
+        .services .left_item , .services .right_item{
+            width: 100%;
+        }
+        .services .right_item img{
+            width: 100%;
+            height: 100%;
+        }
+        .services .left_item h3{
+            padding-left: 10px;
+            font-size: 25px;
+            padding-bottom: 50px;
+
+        }
+        .services .left_item p{
+            padding-bottom: 50px;
+            padding-left: 40px;
+            font-size: 18px;
+
+        }
+        .services .left_item a{
+            margin-top: 2px;
+            text-align: center;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            font-size: 28px;
+        }
+        .services2{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .services2 .left, .services2 .right{
+            width: 100%;
+        }
+        .services2 .left img{
+            width: 100%;
+            height: 100%;
+        }
+        .services2 .right h3{
+            margin-left: 5px;
+            font-size: 25px;
+            padding-bottom: 50px;
+
+        }
+        .services2 .right p{
+            padding-bottom: 50px;
+            padding-left: 40px;
+            font-size: 18px;
+
+        }
+        .services2 .right a{
+            margin-top: 2px;
+            text-align: center;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            font-size: 28px;
+        }
+        .div3{
+            display: flex;
+           flex-direction: column;
+        }
+        .div3 .div1, .div3 .div2{
+            width: 100%;
+        }
+        .div3 .div1 img, .div3 .div2 img{
+            width: 100%;
+            height: 100%;
+        } 
+        .div3 .div1 h3{
+            padding-top: 0px;
+            font-size: 30px;
+            
+        }
+        .div3 .div1 p{
+            margin-top:-140px ;
+            line-height: 20px;
+            font-size: 18px;
+        }
+        .div3 .div2 h3{
+            padding-top: 0px;
+            font-size: 30px;
+        }
+        .div3 .div2 p{
+            margin-top:-140px ;
+            line-height: 20px;
+            font-size: 18px;
+        }
+        
+        .div4 .container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+           
+        }
+        
+        .div4 h4{
+            padding-top: 60px;
+            font-size: 18px;
+        }
+        .div4 .container .div1{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-weight: 800;
+           
+        }
+        .div4 .container .div1 h3{
+            font-size: 20px;
+        }
+        .div4 .container .div2{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-weight: 800;
+           
+        }
+        .div4 .container .div2 h3{
+            font-size: 20px;
+        }
+        .fa-user-secret{
+            padding-left: 70px;
+        }
+        .div4 .container .third .p1{
+            margin-right: -80px;
+            font-weight: 800; 
+           
+         }
+        .div4 .container .third h3{
+            font-size: 20px;
+            margin-right: -80px;
+        }
+        .div4 .container .third .p2{
+            margin-right: -80px;
+
+        }
+        
+        .footer .social{
+            display: flex;
+            margin-left: -15px;
+        }
+        .header .desc p{
+            font-size: 40px;
+            margin-top: -200px;
+            padding-left: 30px;
+            padding-right: 30px;
+
+        }
+        .header .desc img{
+            /* margin-top: -200px;
+            margin-left: 470px; */
+            display: none;
+        }
+       
+        .header .navbar .right_item .fa-bars{
+            display: block;
+            font-size: 20px; 
+             /* float: right;
+            right: 0;  */
+            color: #fff; 
+            /* padding: 5px 10px; */
+            padding-right: 0px;
+             
+        }
+        .header .navbar .right_item .items{
+            font-size: 15px;
+            display: none;
+            width: 100%;
+           
+            position: absolute; 
+             left: 0; 
+            top: 10vh; 
+           
+        } 
+        .header .navbar .right_item .fa-bars:hover{
+            cursor: pointer;
+        }
+        .header .navbar .right_item .items li{
+            font-size: 20px;
+            background-color: rgb(82, 143, 194);
+            color: rgb(113, 127, 189);
+            border: 1px solid white;
+        }
+        .header .navbar .right_item .items li:hover{
+            color: rgb(65, 63, 206);
+            cursor: pointer;
+        }
+        .header .navbar .right_item .items.active{
+            display: flex;
+        }
+
+     }
+     @media screen and (max-width:600px) {
+        .div3 .div1 h3{
+            padding-top: 50px;
+            font-size: 25px;
+            
+        }
+        .div3 .div1 p{
+            margin-top:-100px ;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+        .div3 .div2 h3{
+            padding-top: 50px;
+            font-size: 25px;
+        }
+        .div3 .div2 p{
+            margin-top:-100px ;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+        }
+    
+        
+     
